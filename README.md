@@ -5,7 +5,7 @@
 Bengaluru being an IT capital of India. Most of the people here are dependent mainly on the restaurant food as they don’t have time to cook for themselves. With such an overwhelming demand of restaurants it has therefore become important to study the demography of a location. In the world of rising new technology and innovation, healthcare industry is advancing with the role of Artificial Intelligence. Machine learning algorithms can help to early detection of the disease and to improve the quality of the life. This study demonstrates the how different classification algorithms can forecasts the presence of the disease. Different classification algorithms such as Logistic regression, Random Forest, Decision Tree have been tested and compared to predict the better outcome of the model.
 
 ## WEBSITE LINK:
-
+https://restaurant-rating-pred-api.herokuapp.com/
 
 ## DEMO Video:
 
@@ -34,8 +34,8 @@ Model performance evaluated based on accuracy, confusion matrix, classification 
 
 
 ## Model Deployment
-The final model is deployed on Heroku using Flask framework
+The final model is deployed on Heroku using Flask framework by using Command Line Interface
 
 
------------------------------------------------------------------Harsh Paseriya------------------------------------------------------------------------------
+-----------------------------------------------------------------Harsh Paseriya------------------------------------------------------------------------
 
