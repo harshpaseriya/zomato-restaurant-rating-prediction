@@ -11,7 +11,7 @@ Bengaluru being an IT capital of India. Most of the people here are dependent ma
 
 ## Technical aspect:
 - Python 3.7
-- Front-end: HTML, CSS
+- Front-end: HTML
 - Back-end: Flask
 - IDE: Jupyter Notebook, Vscode
 - Deployment: Heroku
@@ -37,5 +37,5 @@ Model performance evaluated based on accuracy, confusion matrix, classification 
 The final model is deployed on Heroku using Flask framework
 
 
------------------------------------------------------------------Harsh Paseriya-----------------------------------------------------------------------------------
+-----------------------------------------------------------------Harsh Paseriya------------------------------------------------------------------------------
 
