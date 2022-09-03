@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <!-- <image src="{{url_for('static',filename = 'photo_1.jpg')}}" width =1200 height=340 ></image> -->
+
+    <div style="color:rgb(0, 0, 0)">
+        <form action="{{ url_for('predict')}}" method="POST">
+            <h2>Restaurant Rating Prediction</h2>
+            <h3>Online Order</h3><br><select name="online_order" id="first"  required="required">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>    
+            <h3>Book Table</h3><select name="book_table" id="second"  required="required">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                </select>
+            <h3>Votes</h3><br><input id="third" name="votes" required="required">    
+            <h3>Rest Type </h3><br><input id="fourth" name="rest_type" required="required">
+            <h3>Dish Liked </h3><br><input id="fifth" name="dish_liked" required="required">
+            <h3>Cuisine </h3><br><input id="sixth" name="cuisines" required="required">
+            <h3>Cost</h3><br><input name="cost" id="seventh" type="number" required="required">
+            <h3>Review </h3><br><input id="eigth" name="reviews_list" required="required">
+            <h3>Type</h3><br><select name="type" id="ninth" required="required">
+                <option value="Buffet">Buffet</option>
+                <option value="Cafes">Cafes</option>
+                <option value="Delivery">Delivery</option>
+                <option value="Desserts">Desserts</option>
+                <option value="Dine-out">Dine-out</option>
+                <option value="Drinks & nightlife">Drinks & nightlife</option>
+                <option value="Pubs and bars">Pubs and bars</option>
+            </select>
+            
+            
+                
+            
+            <br><br><button id="sub" type="submit "> Rating of Restaurant</button>
+            <br>
+
+
+
+
+        </form>
+
+
+
+        <br><br><h3>{{ prediction_text }}<h3>
+    </div>
+
+
+
+
+    <style>
+        
+        body {
+            
+            background-color: rgba(0, 161, 21, 0.123);
+            text-align: center;
+            padding: 0px;
+            
+        }
+        
+        
+        
+        #box {
+            border-radius: 5px;
+            border-color: 70px;
+            border-style: solid;
+            font-family: cursive;
+            text-align: center;
+            background-color: rgb(218, 153, 34);
+            font-size: small;
+            position: absolute;
+            width: 10px;
+            bottom: 9%;
+            height: 10px;
+            right: 30%;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+        }
+        
+        #fuel {
+            width: 90px;
+            height: 25px;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        #fuel:hover {
+            background-color: rgb(252, 85, 24);
+        }
+        
+        
+       
+        
+        #fifth {
+            width: 90px;
+            height: 25px;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        #resea:hover {
+            background-color: rgb(255, 68, 0);
+        }
+        
+        #sub {
+            width: 240px;
+            height: 50px;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+        
+        #sub:hover {
+            background-color: darkcyan;
+        }
+        
+        #first {
+            border-radius: 5px;
+            height: 25px;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        #second {
+            border-radius: 5px;
+            height: 25px;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        #third {
+            border-radius: 5px;
+            height: 25px;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        #fourth {
+            border-radius: 5px;
+            height: 25px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        #sixth {
+            border-radius: 5px;
+            height: 25px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        #seventh {
+            border-radius: 5px;
+            height: 25px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        #eigth {
+            border-radius: 5px;
+            height: 25px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        #ninth {
+            border-radius: 5px;
+            height: 25px;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</body>
+
+</html>
