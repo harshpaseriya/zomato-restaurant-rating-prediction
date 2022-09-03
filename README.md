@@ -8,6 +8,8 @@ Bengaluru being an IT capital of India. Most of the people here are dependent ma
 https://restaurant-rating-pred-api.herokuapp.com/
 
 ## DEMO Video:
+https://youtu.be/VBjuH6HgqEc
+
 
 ## Technical aspect:
 - Python 3.7
@@ -17,6 +19,7 @@ https://restaurant-rating-pred-api.herokuapp.com/
 - Deployment: Heroku
 
 ## Workflow
+
 ## Data Collection:
 Zomato Restaurant Dataset from Kaggle.
 
